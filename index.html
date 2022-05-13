@@ -1,63 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="./public/images/rock.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <title>Janken!!</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link id="favicon" rel="icon" href="./public/images/rock.png" type="image/png">
-  <link rel="stylesheet" href="./public/css/style.css">
-  <title>Janken!</title>
-</head>
-
-<body>
-  <div class="rotate">
-
-  </div>
-  <div class="game">
-
-    <div class="hands">
-      <div class="player">
-        <img id="player-hand" src="./public/images/rock.png" />
+  <body>
+    <div class="rotate"></div>
+    <div class="game">
+      <div class="hands">
+        <div class="player">
+          <img id="player-hand" src="./public/images/rock.png" />
+        </div>
+        <div class="computer">
+          <img id="computer-hand" src="./public/images/rock.png" />
+        </div>
       </div>
-      <div class="computer">
-        <img id="computer-hand" src="./public/images/rock.png" />
+
+      <div class="result">
+        <p class="" id="result-message">MESSAGE</p>
+      </div>
+
+      <div class="options">
+        <div class="panel">
+          <button class="pushable">
+            <span class="shadow"></span>
+            <span class="edge"></span>
+            <span class="front">
+              <img id="rock" src="./public/images/rock.png" />
+            </span>
+          </button>
+          <button class="pushable">
+            <span class="shadow"></span>
+            <span class="edge"></span>
+            <span class="front">
+              <img id="paper" src="./public/images/paper.png" />
+            </span>
+          </button>
+          <button class="pushable">
+            <span class="shadow"></span>
+            <span class="edge"></span>
+            <span class="front">
+              <img id="scissors" src="./public/images/scissors.png" />
+            </span>
+          </button>
+        </div>
       </div>
     </div>
 
-    <div class="result">
-      <p class="" id="result-message">MESSAGE</p>
-    </div>
-
-    <div class="options">
-      <div class="panel">
-        <button class="pushable">
-          <span class="shadow"></span>
-          <span class="edge"></span>
-          <span class="front">
-            <img id="rock" src="./public/images/rock.png" />
-          </span>
-        </button>
-        <button class="pushable">
-          <span class="shadow"></span>
-          <span class="edge"></span>
-          <span class="front">
-            <img id="paper" src="./public/images/paper.png" />
-          </span>
-        </button>
-        <button class="pushable">
-          <span class="shadow"></span>
-          <span class="edge"></span>
-          <span class="front">
-            <img id="scissors" src="./public/images/scissors.png" />
-          </span>
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <script src="./src/js/script.js"></script>
-  <script src="./src/js/app.js"></script>
-</body>
-
+    <script src="./src/js/script.js"></script>
+    <script src="./src/js/app.js"></script>
+  </body>
 </html>
