@@ -5,7 +5,7 @@ let favicon = document.querySelector("#favicon");
 
 function faviconLoop() {
   setInterval(function () {
-    favicon.href = "public/images/" + icons[i] + ".png";
+    favicon.href = "./public/images/" + icons[i] + ".png";
     i == 2 ? (i = 0) : i++;
   }, 1500);
 }

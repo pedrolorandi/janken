@@ -23,7 +23,7 @@ const resultMapClass = {
 
 const changeHand = (player, option) => {
   setTimeout(() => {
-    player.src = "/public/images/" + option + ".png";
+    player.src = "./public/images/" + option + ".png";
   }, 680);
 };
 
@@ -42,8 +42,8 @@ const gameLoop = () => {
     messageDisplay.innerHTML = "MESSAGE";
     messageDisplay.className = "";
 
-    playerHand.src = "/public/images/rock.png";
-    computerHand.src = "/public/images/rock.png";
+    playerHand.src = "./public/images/rock.png";
+    computerHand.src = "./public/images/rock.png";
 
     playerHand.classList.add("reset");
     computerHand.classList.add("reset");
