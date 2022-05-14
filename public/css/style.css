@@ -32,7 +32,7 @@ body {
 
 .rotate {
   background-color: black;
-  background-image: url(/public/images/rotate.jpg);
+  background-image: url(../images/rotate.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
