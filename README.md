@@ -17,5 +17,5 @@ A simple "Rock, Paper, Scissors" game developed using HTML5, CSS3, and Vanilla J
 
 <br/><br/>
 <a href="https://pedrolorandi.github.io/janken/" target="_blank">
-  <img src="https://img.shields.io/badge/view_live-white.svg?style=for-the-badge&logo=airplay-video&logoColor=black" alt="Janken" />
+  <img src="https://img.shields.io/badge/view_live-white.svg?style=for-the-badge&logo=airplay-video&logoColor=black" alt="View Live" />
 </a>
